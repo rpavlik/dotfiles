@@ -48,9 +48,17 @@ add_prefix() {
 
 add_prefix $HOME/.local
 
+# Only logs if the file already exists
 LOG=~/rcfiles.txt
-rm -f $LOG
+if [ -f $LOG ]; then
+    # remote and recreate to empty the file
+    rm -f $LOG
+    touch $LOG
+fi
+
 for fn in $HOME/.bashrc.d/*.rc; do
-    echo $fn >> $LOG
+    if [ -f $LOG ]; then
+        echo $fn >> $LOG
+    fi
     source $fn
 done
