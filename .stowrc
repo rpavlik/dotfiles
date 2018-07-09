@@ -1,3 +1,4 @@
 --target=/home/ryan
 --ignore='.gitignore'
 --ignore='README.md'
+-v
