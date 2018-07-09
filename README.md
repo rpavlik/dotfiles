@@ -1,10 +1,11 @@
 # dotfiles
 My linux config files and scripts managed with git and [stow][] - inspired by the many users of [stow][] for this task.
+Resembles the general approach of [Brandon Invergo][] as linked from the stow homepage.
 Clone it to `~/dotfiles` (default when running from home dir) to put it in the "right" place.
 
 > **Note: may assume specifics of Ryan's systems, e.g. username is ryan, etc. Non-Ryan use is at your own risk!**
 >
-> i.e., This is primarily for Ryan's own usage, don't have time to help "port" this to other people.
+> This is primarily for Ryan's own usage, don't have time to help "port" this to other people.
 > It is public and permissively licensed so that others may use bits from it as they find useful,
 > but the audience is primarily "me", so any use anybody else gets out of this is just a bonus.
 
@@ -12,6 +13,8 @@ Clone it to `~/dotfiles` (default when running from home dir) to put it in the "
 Essentially, these top-level directories are "packages" of thematically-related config files.
 Running `stow` (or `stow -D`, to unlink) from this directory, along with the name of such a package,
 will adjust the symlinks in `/home/ryan` accordingly.
+
+[Brandon Invergo]: http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html
 
 # Interesting Features
 
