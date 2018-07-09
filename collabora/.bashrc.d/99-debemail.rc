@@ -1,0 +1,2 @@
+export DEBEMAIL=ryan.pavlik@collabora.com
+export DEBFULLNAME='Ryan Pavlik'
