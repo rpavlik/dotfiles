@@ -4,3 +4,4 @@ linuxbrew
 dotssh-dir
 ryzenshine-backports
 stretch-ruby
+debian-quilt
