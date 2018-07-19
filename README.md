@@ -48,7 +48,8 @@ There's a file for each machine in this parent directory, for use with commands 
 
 The list of machines that might be used with this:
 
-- `ryzenshine` - Debian Stretch amd64 on a Collabora-owned Dell Inspiron Gaming 5676 desktop, with RyZen 2700X, Radeon RX580, and ridiculously bright blue LEDs, because gaming?
+- `ryzenshine` - Debian Stretch amd64 on a Collabora-purchased Dell Inspiron Gaming 5676 desktop, with RyZen 2700X, Radeon RX580, and ridiculously bright blue LEDs, because gaming?
+- `toaster` - Debian Buster/Sid amd64 on a Collabora-purchased Dell XPS 13 9380, with Core i7-8550U (Intel HD 620 graphics), WD15 dock.
 - `trex` - Debian Stretch on a privately-owned Dell Precision T5500, with an older, but substantial, Xeon and a random video card.
 
 [stow]: http://www.gnu.org/software/stow/
