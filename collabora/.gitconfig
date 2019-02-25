@@ -1,3 +1,12 @@
 [user]
 	name = Ryan Pavlik
 	email = ryan.pavlik@collabora.com
+[merge]
+	tool = meld
+[commit]
+	verbose = true
+[sendemail]
+	smtpuser = rpavlik
+	smtpserver = mail.collabora.com
+	smtpencryption = tls
+	smtpserverport = 587
